@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <Masonry.h>
 @interface FJAlertView : UIView
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) UILabel *titleLabel;
