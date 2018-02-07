@@ -15,8 +15,11 @@
 		1C50ED81202AA49A00773C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C50ED7F202AA49A00773C37 /* LaunchScreen.storyboard */; };
 		1C50ED84202AA49A00773C37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED83202AA49A00773C37 /* main.m */; };
 		1C50ED8D202AA58100773C37 /* FJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED8C202AA58100773C37 /* FJAlertView.m */; };
-		1C50ED90202AA5A900773C37 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED8F202AA5A900773C37 /* Constant.m */; };
-		1C50ED93202AA5D600773C37 /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED91202AA5D600773C37 /* ColorUtils.m */; };
+		1C50ED98202AC65E00773C37 /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED96202AC65E00773C37 /* ColorUtils.m */; };
+		1C50ED99202AC65E00773C37 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED97202AC65E00773C37 /* Constant.m */; };
+		1C50EDA0202AC7D600773C37 /* UILabel+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED9B202AC7D600773C37 /* UILabel+Custom.m */; };
+		1C50EDA1202AC7D600773C37 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED9D202AC7D600773C37 /* UIView+Custom.m */; };
+		1C50EDA2202AC7D600773C37 /* UIView+KGViewExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C50ED9E202AC7D600773C37 /* UIView+KGViewExtend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +35,16 @@
 		1C50ED83202AA49A00773C37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C50ED8B202AA58100773C37 /* FJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAlertView.h; sourceTree = "<group>"; };
 		1C50ED8C202AA58100773C37 /* FJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAlertView.m; sourceTree = "<group>"; };
-		1C50ED8E202AA5A900773C37 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
-		1C50ED8F202AA5A900773C37 /* Constant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
-		1C50ED91202AA5D600773C37 /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtils.m; sourceTree = "<group>"; };
-		1C50ED92202AA5D600773C37 /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
+		1C50ED94202AC65E00773C37 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		1C50ED95202AC65E00773C37 /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
+		1C50ED96202AC65E00773C37 /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtils.m; sourceTree = "<group>"; };
+		1C50ED97202AC65E00773C37 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		1C50ED9A202AC7D600773C37 /* UILabel+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Custom.h"; sourceTree = "<group>"; };
+		1C50ED9B202AC7D600773C37 /* UILabel+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Custom.m"; sourceTree = "<group>"; };
+		1C50ED9C202AC7D600773C37 /* UIView+KGViewExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KGViewExtend.h"; sourceTree = "<group>"; };
+		1C50ED9D202AC7D600773C37 /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		1C50ED9E202AC7D600773C37 /* UIView+KGViewExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KGViewExtend.m"; sourceTree = "<group>"; };
+		1C50ED9F202AC7D600773C37 /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
 		5846430E09B688F1856BBD23 /* Pods-CustomAlertViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertViewDemo/Pods-CustomAlertViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8B07E5EE4D6EAC0AACB34538 /* Pods-CustomAlertViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomAlertViewDemo/Pods-CustomAlertViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EEABC51B3C08DE937951DA46 /* libPods-CustomAlertViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomAlertViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,10 +86,6 @@
 				1C50ED8A202AA58100773C37 /* FJAlertView */,
 				1C50ED74202AA49A00773C37 /* AppDelegate.h */,
 				1C50ED75202AA49A00773C37 /* AppDelegate.m */,
-				1C50ED8E202AA5A900773C37 /* Constant.h */,
-				1C50ED8F202AA5A900773C37 /* Constant.m */,
-				1C50ED92202AA5D600773C37 /* ColorUtils.h */,
-				1C50ED91202AA5D600773C37 /* ColorUtils.m */,
 				1C50ED77202AA49A00773C37 /* ViewController.h */,
 				1C50ED78202AA49A00773C37 /* ViewController.m */,
 				1C50ED7A202AA49A00773C37 /* Main.storyboard */,
@@ -97,6 +102,16 @@
 			children = (
 				1C50ED8B202AA58100773C37 /* FJAlertView.h */,
 				1C50ED8C202AA58100773C37 /* FJAlertView.m */,
+				1C50ED9A202AC7D600773C37 /* UILabel+Custom.h */,
+				1C50ED9B202AC7D600773C37 /* UILabel+Custom.m */,
+				1C50ED9F202AC7D600773C37 /* UIView+Custom.h */,
+				1C50ED9D202AC7D600773C37 /* UIView+Custom.m */,
+				1C50ED9C202AC7D600773C37 /* UIView+KGViewExtend.h */,
+				1C50ED9E202AC7D600773C37 /* UIView+KGViewExtend.m */,
+				1C50ED95202AC65E00773C37 /* ColorUtils.h */,
+				1C50ED96202AC65E00773C37 /* ColorUtils.m */,
+				1C50ED94202AC65E00773C37 /* Constant.h */,
+				1C50ED97202AC65E00773C37 /* Constant.m */,
 			);
 			name = FJAlertView;
 			path = ../../FJAlertView;
@@ -245,11 +260,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C50ED79202AA49A00773C37 /* ViewController.m in Sources */,
+				1C50EDA1202AC7D600773C37 /* UIView+Custom.m in Sources */,
+				1C50ED99202AC65E00773C37 /* Constant.m in Sources */,
 				1C50ED84202AA49A00773C37 /* main.m in Sources */,
+				1C50ED98202AC65E00773C37 /* ColorUtils.m in Sources */,
+				1C50EDA2202AC7D600773C37 /* UIView+KGViewExtend.m in Sources */,
 				1C50ED76202AA49A00773C37 /* AppDelegate.m in Sources */,
-				1C50ED93202AA5D600773C37 /* ColorUtils.m in Sources */,
-				1C50ED90202AA5A900773C37 /* Constant.m in Sources */,
 				1C50ED8D202AA58100773C37 /* FJAlertView.m in Sources */,
+				1C50EDA0202AC7D600773C37 /* UILabel+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

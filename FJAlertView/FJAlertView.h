@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TYAttributedLabel.h>
-#import <Masonry.h>
 #import "Constant.h"
 #import "ColorUtils.h"
 @interface FJAlertView : UIView
@@ -16,8 +14,7 @@
 @property (nonatomic, strong) UILabel *titleLabel;
 
 @property (nonatomic, strong) NSString *message;
-@property (nonatomic, strong) TYAttributedLabel *messageLabel;
-@property (nonatomic,strong) TYTextContainer *textContainer;
+@property (nonatomic, strong) UILabel *messageLabel;
 
 
 @property (nonatomic, strong) NSString *buttonTitle;

@@ -1,15 +1,3 @@
-PODS:
-  - Masonry (1.1.0)
-  - TYAttributedLabel (2.6.6)
-
-DEPENDENCIES:
-  - Masonry (~> 1.1.0)
-  - TYAttributedLabel (~> 2.6.6)
-
-SPEC CHECKSUMS:
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  TYAttributedLabel: cb8fc910d97eb5224936d4f692a78e042af691b2
-
-PODFILE CHECKSUM: 30bac07983b84130395640b3e3b0aad02748bb4c
+PODFILE CHECKSUM: ab9eb8f0505a86c7c88b929bc2abe7ed1c4fb878
 
 COCOAPODS: 1.3.1
