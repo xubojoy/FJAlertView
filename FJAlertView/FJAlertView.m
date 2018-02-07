@@ -74,6 +74,7 @@
 //    内容
     _messageLabel = [[UILabel alloc] init];
     _messageLabel.backgroundColor = [ColorUtils colorWithHexString:common_purple_color];
+    _messageLabel.textAlignment = NSTextAlignmentCenter;
     [self.contentBgScrollView addSubview:_messageLabel];
 
 //    关闭按钮
