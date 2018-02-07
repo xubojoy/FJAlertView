@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FJAlertView"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "a custom view for everyone FJAlertView."
 
   # This description is used to generate tags and improve search results.
