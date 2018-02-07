@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Constant.h"
-#import "ColorUtils.h"
 @interface FJAlertView : UIView
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) UILabel *titleLabel;

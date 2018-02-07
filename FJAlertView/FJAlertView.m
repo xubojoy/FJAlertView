@@ -9,6 +9,8 @@
 #import "FJAlertView.h"
 #import "UIView+KGViewExtend.h"
 #import "UILabel+Custom.h"
+#import "Constant.h"
+#import "ColorUtils.h"
 @implementation FJAlertView
 
 - (instancetype)initWithFrame:(CGRect)frame title:(NSString *)title message:(NSString *)message buttonTitle:(NSString *)buttonTitle{
