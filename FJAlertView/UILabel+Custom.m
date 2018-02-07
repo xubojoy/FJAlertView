@@ -8,6 +8,7 @@
 
 #import "UILabel+Custom.h"
 #import <objc/runtime.h>
+#import "Constant.h"
 /// 获取UIEdgeInsets在水平方向上的值
 CG_INLINE CGFloat
 UIEdgeInsetsGetHorizontalValue(UIEdgeInsets insets) {
